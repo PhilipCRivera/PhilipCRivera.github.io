@@ -29,7 +29,7 @@ html {
      font-size: 50px;
      text-align: center; /* centering all h1 elements */
      margin-top: 3%; /* adds a small margin above h1 elements */
-     color: rgb(120, 243, 157);
+     color: #f9557b;
  }
 
  /* Heading 1 element hover effect */
@@ -119,7 +119,7 @@ html {
  /***** Navbar styling *****/
  .Navbar {
     overflow: hidden; /*  this ensures that any content that overflows beyond the boundary of our navbar is not displayed */
-    background-color: rgb(59, 255, 165); /* this colors the navbar black */
+    background-color: #38e7fc; /* this colors the navbar black */
     position: fixed; /* this keeps the navbar at the top of the screen as we scroll */
     top: 0; /* this ensures no space is displayed above the navbar */
     width: 100%; /* this makes the navbar span the entire width of the page */
@@ -159,7 +159,7 @@ html {
 
 /* navbar hover effects */
 .Navbar a:hover {
-    background-color: #f4f4f4; /* defines the background color that will display when you hover over the link */
+    background-color: #7ff026; /* defines the background color that will display when you hover over the link */
     color: rgb(0, 0, 0); /* this defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* this makes the text on the navbar bold when hovered over */
     cursor: pointer;
@@ -167,7 +167,7 @@ html {
 
 /* navbar home button */
 .Navbar a.active { /* this targets a element on the navbar with the "active" class */
-   background-color: coral;
+   background-color: #7ff026;
 }
 /***** End of Navbar Styling *****/
 /***** Video Styling *****/
@@ -322,7 +322,7 @@ html {
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
     height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #f2f2f2; /* Sets the background color of the left columns */
+    background-color: #bcff2b /* Sets the background color of the left columns */
  }
  
  /* The @media rule is used in media queries to apply different styles for different media/types of devices */
@@ -338,7 +338,7 @@ html {
     width: 50%;
     padding: 1.6%;
     height: 450px;
-    background-color: coral;
+    background-color: #fd00f6;
  }
  
  /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
@@ -356,9 +356,9 @@ html {
     bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
-    background-color: white; /* Sets the background color of the button to white */
+    background-color: #38e7fc; /* Sets the background color of the button to white */
     color: black; /* Sets the color of the button text to black */
-    border: solid black; /* This makes a solid black border around the button */
+    border: solid #31525b; /* This makes a solid black border around the button */
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
     -webkit-animation: movePopup 5s; /* Animation for 5 seconds for Safari 4.0-8.0 */
     animation: movePopup 5s; /* Animation set for 5 seconds */
@@ -417,7 +417,7 @@ html {
  /* Hover effect for contact and submit buttons */
  button:hover, .form-container .btn:hover {
     color: white; /* This makes the text in the buttons white when hovered over */
-    background-color: black; /* The background of the button changes to black when hovered over */
+    background-color: #bb32a1; /* The background of the button changes to black when hovered over */
     transition-duration: 1s; /* This makes the transition last 1 second */
     -webkit-transition-duration: 1s; /* For Safari 4.0-8.0 */
     border-color: silver; /* The border turns silver when the button is hovered over */
@@ -441,7 +441,7 @@ html {
  /* Styling for close button on hover */
  .form-container .cancel:hover {
     color: white;
-    background-color: rgb(38, 102, 38);
+    background-color: #f9557b;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: black;
