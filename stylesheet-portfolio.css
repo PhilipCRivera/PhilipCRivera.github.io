@@ -11,7 +11,7 @@ html {
      opacity: 1; /* this and transition affect the page loading fade in effect */
      transition: 3s opactity; /* this causes a 3 second fade in */
      letter-spacing: .2vw; /* vw is a relative measurement, 1vw is equal to 1% of the viewpoint width */
-     font-family: American Typewriter, serif, cursive;
+     font-family: kozuka gothic pro h cursive;
      font-size: 1.5vw;
      overflow-x: hidden; /* this prevents the horizontal scroll bar from appearing when the quote is hovered over */
      user-select: none; /* this prevents the text on the webpage from being highlighted by the user */
@@ -25,7 +25,7 @@ html {
  /* Heading 1 elements */
  h1 {
      text-transform: uppercase; /* capitalizing all h1 headings */
-     font-family: American Typewriter, serif, cursive; /* sets the font family for all h1 headings */
+     font-family: engravers mt; /* sets the font family for all h1 headings */
      font-size: 50px;
      text-align: center; /* centering all h1 elements */
      margin-top: 3%; /* adds a small margin above h1 elements */
@@ -47,6 +47,7 @@ html {
 
  /* paragraph elements */
  p {
+    color: white;
      font-family: 'Times New Roman', Times, serif Bold;
      text-align: justify; /* this justifies the text within paragrpah elements */
      letter-spacing: .1vw; /* this expands the text slightly */
@@ -111,7 +112,7 @@ html {
  /* styling for footer element */
  footer {
      padding: 2%; /* this gives the footer padding that is rqual to 2% of the width of the element's area */
-     background-color: white;
+     background-color: #B88B47;
  }
 
  /****** End of General Styling ******/
@@ -119,7 +120,7 @@ html {
  /***** Navbar styling *****/
  .Navbar {
     overflow: hidden; /*  this ensures that any content that overflows beyond the boundary of our navbar is not displayed */
-    background-color: #984EB1 /* this colors the navbar black */
+    background-color: #8B47B8; /* this colors the navbar black */
     position: fixed; /* this keeps the navbar at the top of the screen as we scroll */
     top: 0; /* this ensures no space is displayed above the navbar */
     width: 100%; /* this makes the navbar span the entire width of the page */
@@ -135,7 +136,7 @@ html {
     color: white; /* This is the font color for text on our navbar */
     padding: .75vw 1vw; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-    font-family: American Typewriter, serif, cursive; /* This specifies the font family for text on our navbar */
+    font-family: rockwell; /* This specifies the font family for text on our navbar */
     font-size: 1.5vw; /* This specifies the font size for text on our navbar */
     text-align: center; /* This centers the text within its container */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -159,7 +160,7 @@ html {
 
 /* navbar hover effects */
 .Navbar a:hover {
-    background-color: #7ff026; /* defines the background color that will display when you hover over the link */
+    background-color: #B847AC; /* defines the background color that will display when you hover over the link */
     color: rgb(0, 0, 0); /* this defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* this makes the text on the navbar bold when hovered over */
     cursor: pointer;
@@ -167,7 +168,7 @@ html {
 
 /* navbar home button */
 .Navbar a.active { /* this targets a element on the navbar with the "active" class */
-   background-color: #7ff026;
+   background-color: #B847AC;
 }
 /***** End of Navbar Styling *****/
 /***** Video Styling *****/
@@ -322,7 +323,7 @@ html {
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
     height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #bcff2b /* Sets the background color of the left columns */
+    background-color: #47B88B /* Sets the background color of the left columns */
  }
  
  /* The @media rule is used in media queries to apply different styles for different media/types of devices */
@@ -338,7 +339,7 @@ html {
     width: 50%;
     padding: 1.6%;
     height: 450px;
-    background-color: #fd00f6;
+    background-color: #5347B8;
  }
  
  /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
@@ -356,7 +357,7 @@ html {
     bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
-    background-color: #38e7fc; /* Sets the background color of the button to white */
+    background-color: #8B47B8; /* Sets the background color of the button to white */
     color: black; /* Sets the color of the button text to black */
     border: solid #31525b; /* This makes a solid black border around the button */
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
@@ -377,7 +378,7 @@ html {
  
  /* Styling for the contact form */
  .form-popup {
-    border: 3px solid #f0f1f0; /* Creates a solid light gray border around the contact form */
+    border: 3px solid #B847AC; /* Creates a solid light gray border around the contact form */
     z-index: 8; /* This z-index ensures the contact form shows above all other elements on the page */
     display: none; /* Set the display to none, we will use JavaScript to show the contact form */
     position: fixed; /* The form stays in the same location no matter what */
@@ -404,7 +405,7 @@ html {
  
  /* General styling for all buttons */
  button {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family:Rockwell Extra Bold;
     letter-spacing: .3vw; /* Adds slight spacing between the letters */
     font-size: 1.5vw; /* Relative sizing of text */
     font-weight: bold; 
