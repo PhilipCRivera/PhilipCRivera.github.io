@@ -119,7 +119,7 @@ html {
  /***** Navbar styling *****/
  .Navbar {
     overflow: hidden; /*  this ensures that any content that overflows beyond the boundary of our navbar is not displayed */
-    background-color: #38e7fc; /* this colors the navbar black */
+    background-color: #984EB1 /* this colors the navbar black */
     position: fixed; /* this keeps the navbar at the top of the screen as we scroll */
     top: 0; /* this ensures no space is displayed above the navbar */
     width: 100%; /* this makes the navbar span the entire width of the page */
