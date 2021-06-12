@@ -323,7 +323,7 @@ html {
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
     height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) /* Sets the background color of the left columns */
+    background-color: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) /* Sets the background color of the left columns */
  }
  
  /* The @media rule is used in media queries to apply different styles for different media/types of devices */
