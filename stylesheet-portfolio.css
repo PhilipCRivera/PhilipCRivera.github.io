@@ -59,7 +59,7 @@ html {
  /* paragraph element hover effect */
  p:hover {
      transition: transform 1s; /* this makes the transform effect last 1 second */
-     transform: scale(1.01); /* this makes the paragraphs increase slightly in size when hovered over */
+     transform: scale(1.1); /* this makes the paragraphs increase slightly in size when hovered over */
  }
 
  /* center class - this applies to all centered text */
@@ -70,7 +70,7 @@ html {
  /* center align elements hover effect - this only affects the quote, github link, and footer */
  .center:hover {
      transition: transform 2s; /* this makes the transform effect last 2 seconds */
-     transform: scale(1.1); /* this makes the elemtns with class "center" increase in size by 1.1 when hovered over */
+     transform: scale(1.3); /* this makes the elemtns with class "center" increase in size by 1.1 when hovered over */
  }
 
  /* anchor elements */
