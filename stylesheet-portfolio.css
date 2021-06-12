@@ -29,7 +29,7 @@ html {
      font-size: 50px;
      text-align: center; /* centering all h1 elements */
      margin-top: 3%; /* adds a small margin above h1 elements */
-     color: #f9557b;
+     color: black;
  }
 
  /* Heading 1 element hover effect */
@@ -112,7 +112,7 @@ html {
  /* styling for footer element */
  footer {
      padding: 2%; /* this gives the footer padding that is rqual to 2% of the width of the element's area */
-     background-color: #B88B47;
+     background: linear-gradient(to bottom right, #ECF10E 0%, #7ABE01 100%);
  }
 
  /****** End of General Styling ******/
@@ -120,7 +120,7 @@ html {
  /***** Navbar styling *****/
  .Navbar {
     overflow: hidden; /*  this ensures that any content that overflows beyond the boundary of our navbar is not displayed */
-    background-color: #8B47B8; /* this colors the navbar black */
+    background: linear-gradient(to bottom right, #ECF10E 0%, #7ABE01 100%);
     position: fixed; /* this keeps the navbar at the top of the screen as we scroll */
     top: 0; /* this ensures no space is displayed above the navbar */
     width: 100%; /* this makes the navbar span the entire width of the page */
@@ -160,7 +160,7 @@ html {
 
 /* navbar hover effects */
 .Navbar a:hover {
-    background-color: #B847AC; /* defines the background color that will display when you hover over the link */
+   background: linear-gradient(to bottom right, #1ECBE1 0%, #1EE196 100%);
     color: rgb(0, 0, 0); /* this defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* this makes the text on the navbar bold when hovered over */
     cursor: pointer;
@@ -168,7 +168,7 @@ html {
 
 /* navbar home button */
 .Navbar a.active { /* this targets a element on the navbar with the "active" class */
-   background-color: #B847AC;
+   background: linear-gradient(to bottom right, #1ECBE1 0%, #1EE196 100%);
 }
 /***** End of Navbar Styling *****/
 /***** Video Styling *****/
@@ -271,7 +271,7 @@ html {
     font-family: Perpetua, Rockwell Extra Bold;
     letter-spacing: .1vw; /* This gives slight spacing between the letters */
     font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
-    background-color: #B88B47; /* Gives a slightly transparent black background */
+    background: linear-gradient(to bottom right, #ECF10E 0%, #7ABE01 100%);
     font-weight: bold;
     border-radius: 0px 0px 7px 7px; /* Gives the text background rounded corners on the bottom left and right corners */
  }
@@ -291,7 +291,7 @@ html {
  
  /* Hover effect for slideshow dots */
  .active, .dot:hover {
-    background-color: #B88B47; /* Sets the color of the dots when active or hovered over */
+   background: linear-gradient(to bottom right, #1ECBE1 0%, #1EE196 100%);
  }
  
  /* Fading animation for slideshow */
@@ -323,9 +323,7 @@ html {
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
     height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background: -webkit-linear-gradient(pink, darkblue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to bottom right, #1ECBE1 0%, #1EE196 100%)
  }
  
  /* The @media rule is used in media queries to apply different styles for different media/types of devices */
@@ -341,7 +339,9 @@ html {
     width: 50%;
     padding: 1.6%;
     height: 450px;
-    background-color: #5347B8;
+    background: -webkit-linear-gradient(#B847AC, darkblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
  }
  
  /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
@@ -359,7 +359,7 @@ html {
     bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
-    background-color: #8B47B8; /* Sets the background color of the button to white */
+    background: linear-gradient(to bottom right, #1ECBE1 0%, #1EE196 100%);
     color: black; /* Sets the color of the button text to black */
     border: solid #31525b; /* This makes a solid black border around the button */
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
