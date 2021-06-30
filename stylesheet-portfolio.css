@@ -322,7 +322,7 @@ html {
     float: left;
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
-    height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    height: 600px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     border: solid rgb(13, 255, 162) 2px;
     background: linear-gradient(to bottom right, #1ECBE1 0%, #1EE196 100%)
     
@@ -341,7 +341,7 @@ html {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 450px;
+    height: 600px;
     background: -webkit-linear-gradient(#B847AC, darkblue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
