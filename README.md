@@ -1,4 +1,4 @@
-### Hi there 👋 Welcome to My Portfolio Page! I'm a UX Designer/ full stack software developer! 
+### Hi there 👋 Welcome to My Portfolio Page! I'm a UX/UI Designer & full stack Software Developer! 
 
 <!--
 **PhilipCRivera/PhilipCRivera** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
